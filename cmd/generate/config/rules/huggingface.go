@@ -82,13 +82,6 @@ func HuggingFaceOrganizationApiToken() *config.Rule {
 
 	// validate
 	tps := []string{
-		// `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`,
-		// "`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`",
-		// `\'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'\`,
-		// `\"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\"`,
-		// `,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,`,
-		// `(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)`,
-		// `<foo>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</foo>`,
 		`def test_private_space(self):
         // hf_token = "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"  # Intentionally revealing this key for testing purposes
         io = gr.load(`,
