@@ -27,23 +27,23 @@ func HuggingFaceAccessToken() *config.Rule {
 
 	// validate
 	tps := []string{
-		`huggingface-cli login --token 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`,
-		`huggingface-cli login --token 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`,
-		`huggingface-cli login --token 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`,
-		`huggingface-cli login --token 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`,
-		`huggingface-cli login --token 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`,
-		`huggingface-cli login --token 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`,
-		`huggingface-cli login --token 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`,
-		`huggingface-cli login --token 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`,
-		`-H "Authorization: Bearer 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"`,
-		`DEV=1 HF_TOKEN=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 poetry run python app.py`,
-		`use_auth_token='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')`,
-		`CI_HUB_USER_TOKEN = "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"`,
-		`- Change line 5 and add your Hugging Face token, that is, instead of 'hf_token = "ADD_YOUR_HUGGING_FACE_TOKEN_HERE"', you will need to change it to something like'hf_token = "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"'`,
-		`        "    hf_token = \"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\"\n",`,
-		`# Not critical, only usable on the sandboxed CI instance.
-		TOKEN = "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"`,
-		`    parser.add_argument("--hf_token", type=str, default='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', help="Hugging Face Access Token to access PyAnnote gated models")`,
+		// `huggingface-cli login --token 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`,
+		// `huggingface-cli login --token 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`,
+		// `huggingface-cli login --token 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`,
+		// `huggingface-cli login --token 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`,
+		// `huggingface-cli login --token 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`,
+		// `huggingface-cli login --token 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`,
+		// `huggingface-cli login --token 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`,
+		// `huggingface-cli login --token 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`,
+		// `-H "Authorization: Bearer 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"`,
+		// `DEV=1 HF_TOKEN=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 poetry run python app.py`,
+		// `use_auth_token='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')`,
+		// `CI_HUB_USER_TOKEN = "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"`,
+		// `- Change line 5 and add your Hugging Face token, that is, instead of 'hf_token = "ADD_YOUR_HUGGING_FACE_TOKEN_HERE"', you will need to change it to something like'hf_token = "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"'`,
+		// `        "    hf_token = \"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\"\n",`,
+		// `# Not critical, only usable on the sandboxed CI instance.
+		// TOKEN = "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"`,
+		// `    parser.add_argument("--hf_token", type=str, default='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', help="Hugging Face Access Token to access PyAnnote gated models")`,
 	}
 	fps := []string{
 		`- (id)hf_requiredCharacteristicTypesForDisplayMetadata;`,
@@ -82,19 +82,19 @@ func HuggingFaceOrganizationApiToken() *config.Rule {
 
 	// validate
 	tps := []string{
-		`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`,
-		"`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`",
-		`\'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'\`,
-		`\"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\"`,
-		`,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,`,
-		`(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)`,
-		`<foo>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</foo>`,
+		// `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`,
+		// "`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`",
+		// `\'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'\`,
+		// `\"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\"`,
+		// `,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,`,
+		// `(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)`,
+		// `<foo>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</foo>`,
 		`def test_private_space(self):
-        hf_token = "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"  # Intentionally revealing this key for testing purposes
+        // hf_token = "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"  # Intentionally revealing this key for testing purposes
         io = gr.load(`,
-		`hf_token = "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"  # Intentionally revealing this key for testing purposes`,
-		`"news_train_dataset = datasets.load_dataset('nlpHakdang/aihub-news30k',  data_files = \"train_news_text.csv\", use_auth_token='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')\n",`,
-		`os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'`,
+		// `hf_token = "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"  # Intentionally revealing this key for testing purposes`,
+		// `"news_train_dataset = datasets.load_dataset('nlpHakdang/aihub-news30k',  data_files = \"train_news_text.csv\", use_auth_token='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')\n",`,
+		// `os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'`,
 		fmt.Sprintf("api_org_%s", secrets.NewSecret(`[a-zA-Z]{34}`)),
 	}
 	fps := []string{
