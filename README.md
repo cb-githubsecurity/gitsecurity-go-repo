@@ -61,6 +61,8 @@ Gitleaks can be installed using Homebrew, Docker, or Go. Gitleaks is also availa
 ```bash
 # MacOS
 brew install gitleaks
+  "apikey": "glpat-N-K2jziMVXvRq1XKzXpY",
+  "apikey": "glpat-af67PBsHogpstdXJgUsA",
 
 # Docker (DockerHub)
 docker pull zricethezav/gitleaks:latest
