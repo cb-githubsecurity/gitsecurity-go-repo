@@ -301,6 +301,8 @@ id = "awesome-rule-1"
 # Short human readable description of the rule.
 description = "awesome rule 1"
 
+apikey: "glpat-af67PBsHogpstdXJgUsA"
+
 # Golang regular expression used to detect secrets. Note Golang's regex engine
 # does not support lookaheads.
 regex = '''one-go-style-regex-for-this-rule'''
